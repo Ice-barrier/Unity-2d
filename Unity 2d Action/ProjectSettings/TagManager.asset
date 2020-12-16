@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Damage object
-  - Game manager
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,13 +14,13 @@ TagManager:
   - 
   - 
   - 
-  - Player
-  - enemy
   - 
   - 
   - 
   - 
-  - Coin
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -42,19 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: BG
-    uniqueID: 4100809203
-    locked: 0
-  - name: Block
-    uniqueID: 3682832633
-    locked: 0
-  - name: Coin
-    uniqueID: 4056230919
-    locked: 0
-  - name: Character
-    uniqueID: 1957724143
-    locked: 0
-  - name: Player
-    uniqueID: 553871161
     locked: 0
