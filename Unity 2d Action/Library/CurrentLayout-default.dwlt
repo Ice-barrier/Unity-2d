@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 36
+  controlID: 143
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 38
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,14 +305,14 @@ MonoBehaviour:
     - {fileID: -1921757696633856705, guid: a43658be6840f1e4b9fb5cd28b9d3877, type: 2}
     - {fileID: -3347738587805626336, guid: d5d8b1acf1b3e4a4c8f8c2b0ea33674e, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.91061544
+    - e00: 0.3936842
       e01: 0
       e02: 0
-      e03: -222.23758
+      e03: -4.684204
       e10: 0
-      e11: 0.91061544
+      e11: 0.3936842
       e12: 0
-      e13: 15.819687
+      e13: 104.47894
       e20: 0
       e21: 0
       e22: 1
@@ -338,10 +338,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: d5d8b1acf1b3e4a4c8f8c2b0ea33674e,
+  m_AnimatorController: {fileID: 9100000, guid: a43658be6840f1e4b9fb5cd28b9d3877,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -3347738587805626336, guid: d5d8b1acf1b3e4a4c8f8c2b0ea33674e,
+  - m_Target: {fileID: -1921757696633856705, guid: a43658be6840f1e4b9fb5cd28b9d3877,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -420,20 +420,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animators
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animators
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\h-134139\Documents\Unity-2d\Unity 2d Action
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 68}
-    m_SelectedIDs: 4c3b0000
-    m_LastClickedID: 15180
-    m_ExpandedIDs: 00000000983900009a39000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c23a0000
+    m_LastClickedID: 15042
+    m_ExpandedIDs: 00000000e4390000e6390000c23a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -461,7 +461,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000983900009a390000
+    m_ExpandedIDs: 00000000e4390000e6390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -584,9 +584,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4d7ffff
+      m_SelectedIDs: a03a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 24fbffff44390000
+      m_ExpandedIDs: 24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -774,10 +774,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -229.66667
-    m_HBaseRangeMax: 229.66667
-    m_VBaseRangeMin: -116.333336
-    m_VBaseRangeMax: 116.333336
+    m_HBaseRangeMin: -344.5
+    m_HBaseRangeMax: 344.5
+    m_VBaseRangeMin: -185
+    m_VBaseRangeMax: 185
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -794,11 +794,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 689
-      height: 349
+      height: 370
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 344.5, y: 174.5}
+    m_Translation: {x: 344.5, y: 185}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -806,12 +806,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -344.5
-      y: -174.5
+      y: -185
       width: 689
-      height: 349
+      height: 370
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1033.5, y: 555}
+  m_LastWindowPixelSize: {x: 689, y: 370}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

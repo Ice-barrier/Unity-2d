@@ -36,6 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Character\BaseCharacterController.cs" />
+     <Compile Include="Assets\Scripts\Extension\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Item\BaseItemObject.cs" />
+     <Compile Include="Assets\Scripts\Obstacle\BaseObstacleController.cs" />
+     <Compile Include="Assets\Scripts\Obstacle\ReciprocatingObstacle.cs" />
+     <Compile Include="Assets\Scripts\System\GameManager.cs" />
+     <Compile Include="Assets\Scripts\System\MoveSceneManager.cs" />
+     <Compile Include="Assets\Scripts\System\SaveData.cs" />
+     <Compile Include="Assets\Scripts\System\SaveManager.cs" />
+     <Compile Include="Assets\Scripts\System\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\UI\BaseButtonController.cs" />
+     <Compile Include="Assets\Scripts\UI\FadeCanvas.cs" />
+     <Compile Include="Assets\Scripts\UI\VolumeController.cs" />
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\AudioSourceController.cs" />
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\BlockController.cs" />
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\BrokenBlockController.cs" />
@@ -50,6 +63,11 @@
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\StartController.cs" />
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\TimeController.cs" />
      <Compile Include="Assets\UnityChan2D\Scripts\UnityChan2DController.cs" />
+     <None Include="Assets\Scripts\scripts.txt" />
+     <None Include="Assets\Sprites\sprites.txt" />
+     <None Include="Assets\Prefabs\prefabs.txt" />
+     <None Include="Assets\Scenes\scenes.txt" />
+     <None Include="Assets\readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
