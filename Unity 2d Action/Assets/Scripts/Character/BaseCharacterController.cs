@@ -13,9 +13,9 @@ public class BaseCharacterController : MonoBehaviour
 	[SerializeField]
 	protected int defaultPower = 0;
 	[SerializeField]
-	protected float JumpPower = 0;
+	protected float jumpPower = 0;
 	[SerializeField]
-	protected GameObject[] groundcheckobjects = new GameObject[3];
+	protected GameObject[] groundCheckObjects = new GameObject[3];
 
 	protected int hp = 0;
 	protected float speed = 0;
@@ -24,7 +24,7 @@ public class BaseCharacterController : MonoBehaviour
 	protected GameManager gameManager;
 	protected bool isGrounded = false;
 	protected bool isGroundedPrev = false;
-	protected bool direction = 1;
+	protected float direction = 1;
 
 	public int Hp
 	{
@@ -113,33 +113,26 @@ public class BaseCharacterController : MonoBehaviour
 	{
 
 	}
-
 	protected virtual void UpdateAnimation()
 	{
 
 	}
-	
-	protected void Groundcheck()
+	protected void GroundCheck()
 	{
 		isGroundedPrev = isGrounded;
-
-		collider2D[] groundcheckcollider = new Collider2D[groundcheckobjects.Length];
-
-		//設置判定オブジェクトが何かに重なっているかどうかをチェック
-		for (int i = 0; i < groundcheckobjects.Length; i++)
+		Collider2D[] groundCheckCollider = new Collider2D[groundCheckObjects.Length];
+		//接地判定オブジェクトが何かに重なっているかどうかをチェック
+		for(int i = 0; i < groundCheckObjects.Length; i++)
 		{
-			groundcheckcollider[i] = 
-Physics2D.OverlapPoint(groundcheckobjects[i].transform.position);
-
-		//設置判定オブジェクトのうち、１つでもなにかに重なっていたら接地しているものとして終了
-		if(groundcheckcollider[i] != null)
-		{
-			isGrounded = true;
-
-			return;
+			groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
+			//接地判定オブジェクトのうち、1つでも何かに重なっていたら接地しているものとして終了
+			if(groundCheckCollider[i] != null)
+			{
+				isGrounded = true;
+				return;
+			}
 		}
-		}
-		//ここまで来たということは何も重なっていないということなので、接地していないと判断する
+		//ここまできたということは何も重なっていないということなので、接地していないと判断する
 		isGrounded = false;
 	}
 

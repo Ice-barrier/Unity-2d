@@ -1,5 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class TimeController : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class TimeController : MonoBehaviour
     [SceneName]
     public string nextLevel;
 
-    public GUIText timer;
+    public Text timer;
 
    
 

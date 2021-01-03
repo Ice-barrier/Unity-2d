@@ -1,11 +1,12 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PointController : MonoBehaviour
 {
 
-    public GUIText total;
-    public GUIText coin;
+    public Text total;
+    public Text coin;
 
     private static PointController m_instance;
 

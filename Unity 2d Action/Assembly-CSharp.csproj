@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Character\BaseCharacterController.cs" />
+     <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Extension\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\Item\BaseItemObject.cs" />
      <Compile Include="Assets\Scripts\Obstacle\BaseObstacleController.cs" />
