@@ -24,6 +24,6 @@ public class AudioSourceController : MonoBehaviour
 
     public void PlayOneShot(AudioClip clip)
     {
-        audio.PlayOneShot(clip);
+        GetComponent<AudioSource>().PlayOneShot(clip);
     }
 }

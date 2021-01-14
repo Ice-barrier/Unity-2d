@@ -15,14 +15,14 @@ public class IntroCameraController : MonoBehaviour
     {
         pos = transform.position;
 
-        yield return new WaitForSeconds(audio.clip.length + 1);
+        yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length + 1);
 
         Application.LoadLevel(nextLevel);
     }
 
     void Update()
     {
-        float newPosition = Mathf.SmoothStep(pos.x, target.position.x, Time.timeSinceLevelLoad / audio.clip.length);
+        float newPosition = Mathf.SmoothStep(pos.x, target.position.x, Time.timeSinceLevelLoad / GetComponent<AudioSource>().clip.length);
 
         transform.position = new Vector3(newPosition, pos.y, pos.z);
     }
